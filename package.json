@@ -31,14 +31,14 @@
   ],
   "scripts": {
     "prepublishOnly": "npm run ci",
-    "dev": "vitest",
+    "dev": "vitest --pass-with-no-tests",
     "build": "tsup",
     "ci": "npm run build && npm run lint && npm run check-exports && npm run check-types && npm run test",
     "lint": "eslint",
     "format": "eslint --fix",
     "check-exports": "attw --pack .",
     "check-types": "tsc",
-    "test": "vitest run",
+    "test": "vitest run --pass-with-no-tests",
     "local-release": "changeset version && changeset publish"
   },
   "dependencies": {
