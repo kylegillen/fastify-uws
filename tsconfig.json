@@ -17,7 +17,7 @@
 
     /* If transpiling with TypeScript: */
     "module": "Preserve",
-    
+
     "lib": ["es2022"],
     "noEmit": true
   }
