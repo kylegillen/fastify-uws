@@ -1,0 +1,33 @@
+{
+  "name": "@kylegillen/fastify-uws",
+  "version": "1.0.0",
+  "description": "uWebSockets.js for fastify",
+  "keywords": [
+    "fastify",
+    "uWebSockets.js",
+    "fastify-plugin"
+  ],
+  "homepage": "https://github.com/kylegillen/fastify-uws#readme",
+  "bugs": {
+    "url": "https://github.com/kylegillen/fastify-uws/issues"
+  },
+  "author": "Kyle Gillen",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kylegillen/fastify-uws.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "ci": "npm run build",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.2"
+  }
+}
